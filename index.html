@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="search-container">
+        <form id="search-form">
+            <select name="animalGeneralAge">
+                Age
+                <option value="">Any</option>
+                <option>Baby</option>
+                <option>Young</option>
+                <option>Adult</option>
+                <option>Senior</option>
+            </select>
+            <select name="animalSex">
+                Gender
+                <option value="">Either</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+            <button type="submit">Filter</button>
+        </form>
+    </div>
+    <div class="result-pager"></div>
+    <div id="cat-container" class="results">
+    </div>
+    <div class="result-pager"></div>
+</body>
+<script src="parameters.js"></script>
+<script src="main.js"></script>
+</html>
